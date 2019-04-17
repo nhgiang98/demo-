@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>News Pro</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style_index.css">
+</head>
+<body>
+	<nav id="mySidebar" class="sidebar">
+				<button class="closebtn" onclick="closeNav()"><span class="glyphicon glyphicon-arrow-left"></span></button>
+				
+                <div class="sidebar-header">
+                    <h3>MagazinePro</h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                    <br>
+                    <li >
+                        <a class="abc" href="#" data-toggle="collapse" aria-expanded="false"><span class="glyphicon glyphicon-home"></span> Home</a>
+                        
+                    </li>
+                    <li >
+                         <a class="abc" href="#menu1"  data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down"><span class="glyphicon glyphicon-leaf"></span>  Culture</span> </a>
+                        <div class="collapse" id="menu1">
+	                    	<a href="#"   data-parent="#menu1">Sport</a>
+		                    <a href="#"  data-parent="#menu1">Health</a>
+		                    <a href="#"  data-parent="#menu1">Music</a>
+		                </div>
+                    </li>
+                    <li >
+                         <a class="abc" href="#menu2"  data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down"><span class="glyphicon glyphicon-globe"></span>  Politics</span> </a>
+                        <div class="collapse" id="menu2">
+	                    	<a href="#"   data-parent="#menu2">Diplomatic</a>
+		                    <a href="#"  data-parent="#menu2">Vote</a>
+		                    <a href="#"  data-parent="#menu2">Hot News</a>
+		                </div>
+                    </li>
+                    <li >
+                         <a class="abc" href="#menu3"  data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down"><span class="glyphicon glyphicon-cd"></span> Science</span> </a>
+                        <div class="collapse" id="menu3">
+	                    	<a href="#"   data-parent="#menu3">Invention</a>
+		                    <a href="#"  data-parent="#menu3">Application</a>
+		                    <a href="#"  data-parent="#menu3">Research</a>
+		                </div>
+                    </li>
+                    <li >
+                         <a class="abc" href="#menu4"  data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down"><span class="glyphicon glyphicon-shopping-cart"></span>  Economy</span> </a>
+                        <div class="collapse" id="menu4">
+	                    	<a href="#"   data-parent="#menu4">Finance</a>
+		                    <a href="#"  data-parent="#menu4">Consumption</a>
+		                    <a href="#"  data-parent="#menu4">Stock Exchange</a>
+		                </div>
+                    </li>
+                    <li >
+                         <a class="abc" href="#menu5"  data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"> <span class="hidden-sm-down"><span class="glyphicon glyphicon-tower"></span>  Military</span> </a>
+                        <div class="collapse" id="menu5">
+	                    	<a href="#"   data-parent="#menu5">Hot News</a>
+		                    <a href="#"  data-parent="#menu5">Weapon contract</a>
+		                    <a href="#"  data-parent="#menu5">Armed conflict</a>
+		                </div>
+                    </li>
+                </ul>
+            </nav>
+
+	<div id="main">
+
+		<nav id="nav_fixed" class="navbar navbar-default  background-color clear " role="navigation">
+		<div class="container-fluid">
+			
+			<!--First row -->
+			<div id="firstrowcontact" class="row">
+				<div class="container-fluid">
+
+					<!--Column in left (Home, about, contact) -->
+
+					<div class="col-sm-6 col-xs-12">
+						<ul id="contact1" class="nav navbar-nav navbar-left">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">About</a></li>
+							<li><a href="index.html">Contact</a></li>
+						</ul>
+					</div>
+
+					<!--Column in right (facebook, twitter..) -->
+					<div class="col-sm-6 col-xs-0">
+						<ul id="contact2" class="nav navbar-nav navbar-right">
+							<li><a href="#" class="fa fa-facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"></a></li>
+							<li><a href="#" class="fa fa-twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"></a></li>
+							<li><a href="#" class="fa fa-instagram" data-toggle="tooltip" data-placement="bottom" title="Instagram"></a></li>
+							<li><a href="#" class="fa fa-pinterest" data-toggle="tooltip" data-placement="bottom" title="Pinterest"></a></li>
+							<li><a href="#" class="fa fa-google-plus" data-toggle="tooltip" data-placement="bottom" title="Google+"></a></li>
+							<li><a href="sign-up.html" class="fa fa-user-plus" data-toggle="tooltip" data-placement="bottom" title="Sign-up"></a></li>
+     						<li><a href="sign-in.html" class="fa fa-sign-in" data-toggle="tooltip" data-placement="bottom" title="Sign-in"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--Second row -->
+			<div id="secondrowtitle" class="row">
+				<!--First column to display  first img -->
+					<div id="img1" class="col-sm-3 col-xs-0">
+						<div class="row">
+							<div class="navbar-header">
+								<div class="col-sm-4 col-xs-6">
+									<div class="item1">
+										<img src="../img/img1.png" alt="image-1">
+										<div class="item-overlay top"></div>
+									</div>
+								</div>
+							</div>
+							<div class="collapse navbar-collapse">
+								<div class="nav navbar-nav navbar-left">
+									<div  id="textforimg" class="col-sm-8 col-xs-6">
+										<p style="color: #B18B8B;font-size:13px;">Latest news</p>
+										<p id="textforimg_p1" style="font-weight:bold;font-family: 'Times New Roman', Times, serif;font-size: 15px;">Mr. Donal Trumb elected president</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Second column to display title -->
+					<div id="title1" class="col-sm-5 col-xs-12">
+						<p>NewsPro<span>.</span></p>
+					</div>
+					<!--Third column to display second img -->
+					<div id="img1" class="col-sm-3 col-xs-0">
+						<div class="row">
+							<div class="navbar-header">
+								<div class="col-sm-4 col-xs-6">
+									<div class="item1">
+										<img src="../img/img2.png" alt="image-1">
+										<div class="item-overlay top"></div>
+									</div>
+								</div>
+							</div>
+							<div class="collapse navbar-collapse">
+								<div class="nav navbar-nav navbar-left">
+									<div id="textforimg" class="col-sm-8 col-xs-6">
+										<p style="color: #B18B8B;font-size:13px;">Highlights</p>
+										<p id="textforimg_p1" style="font-weight:bold;font-family: 'Times New Roman', Times, serif;font-size: 15px;">Russian President visited Vietnam</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+
+			<!--Third row (menu) -->
+			<div id="thirdrowmenu" class="row">
+				<div class="col-sm-1 col-xs-1">
+					<div class="navbar-header">
+	                    <button class="openbtn" onclick="openNav()"><span class="glyphicon glyphicon-list"></span></button>  
+	                    
+   				 	</div>
+				</div>
+				<div class="col-sm-10 col-xs-10">
+					<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav d-flex justify-content-center">
+
+						<li id="itemmenu"><a href="#"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+						<li id="itemmenu" class="dropdown"><a href="#" class="dropdown-toggle"data-toggle="dropdown"><span class="glyphicon glyphicon-fire"></span>  Mega Menu<span class="caret"></span></a>
+							<div id="dr_emsv" class="dropdown-content">
+				             <div id="dropdown_megamenu">
+				             	<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo quibusdam nostrum quisquam voluptates, illo ratione quidem, saepe ut, reprehenderit, ipsa corporis et nesciunt architecto error optio suscipit hic labore illum.</h3>
+				             </div>
+				            </div>
+						</li>
+						<li id="itemmenu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-leaf"></span>  Culture<span class="caret"></span></a>
+							<div id="dropdown_itemmenu" class="dropdown-content">
+				             <a href="#">Sport</a>
+				             <a href="#">Health</a>
+				             <a href="#">Music</a>
+				           </div>
+						</li>
+						<li id="itemmenu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span>  Politics<span class="caret"></span></a>
+							<div id="dropdown_itemmenu" class="dropdown-content">
+				             <a href="#">Diplomatic</a>
+				             <a href="#">Vote</a>
+				             <a href="#">Hot news</a>
+				           </div>
+						</li>
+						<li id="itemmenu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cd"></span>  Science<span class="caret"></span></a>
+							<div id="dropdown_itemmenu" class="dropdown-content">
+				             <a href="#">Invention</a>
+				             <a href="#">Application</a>
+				             <a href="#">Research</a>
+				           </div>
+						</li>
+						<li id="itemmenu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>  Economy<span class="caret"></span></a>
+							<div id="dropdown_itemmenu" class="dropdown-content">
+				             <a href="#">Finance</a>
+				             <a href="#">Consumption</a>
+				             <a href="#">Stock exchange</a>
+				           </div>
+						</li>
+						<li id="itemmenu" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-tower"></span>  Military<span class="caret"></span></a>
+							<div id="dropdown_itemmenu" class="dropdown-content">
+				             <a href="#">Hot news</a>
+				             <a href="#">Weapon contract</a>
+				             <a href="#">Armed coflict</a>
+				           </div>
+						</li>
+						
+					</ul>
+				</div>
+				</div>
+				<div class="col-sm-1 col-xs-1">
+					<button class="searchbtn" data-toggle="modal" data-target="#exampleModalCenter" style="float: right;"><span class="glyphicon glyphicon-search"></span></button>
+				</div>
+			</div>
+
+		</nav>
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		        <h5 class="modal-title" id="exampleModalLongTitle" style="font-size: 30px;">Search</h5>
+		       
+		      </div>
+		      <div class="modal-body">
+		       <label for="inp" class="inp">
+				  <input type="text" id="inp" placeholder="&nbsp;">
+				  <span class="label">Type to search</span>
+				  <span class="border"></span>
+				</label>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Search</button>
+		      </div>
+		    </div>
+		  </div>
+</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p> aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet dignissimos deleniti ex, repudiandae maiores aut. Adipisci beatae possimus, nulla corporis fugiat, ex provident, aliquid ab dolorum nobis culpa alias architecto.</p>
+	</div>
+
+	<script type="text/javascript" src="../js/myJSindex.js"></script>
+</body>
+</html>
